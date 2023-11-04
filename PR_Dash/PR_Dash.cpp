@@ -10,7 +10,7 @@ public:
 	unsigned short int numinals[10] = { 1,2,5,10,20,50,100,500,1000,5000 };
 	unsigned int second = 0;
 	unsigned int sum = 0;
-	//Перевірка що вписаний номінал правильний
+	//ГЏГҐГ°ГҐГўВіГ°ГЄГ  Г№Г® ГўГЇГЁГ±Г Г­ГЁГ© Г­Г®Г¬ВіГ­Г Г« ГЇГ°Г ГўГЁГ«ГјГ­ГЁГ©
 	bool isValid(int banknot)
 	{
 		for (int i = 0; i < sizeof(numinals) / sizeof(numinals[0]); i++) {
@@ -21,7 +21,7 @@ public:
 		}
 		return false;
 	}
-	//Ввід номіналу
+	//Г‚ГўВіГ¤ Г­Г®Г¬ВіГ­Г Г«Гі
 	void SetNominal()
 	{
 		unsigned int banknot = 0;
@@ -38,7 +38,7 @@ public:
 			SetNominal();
 		}
 	}
-	//Ввід кількості купюр
+	//Г‚ГўВіГ¤ ГЄВіГ«ГјГЄГ®Г±ГІВі ГЄГіГЇГѕГ°
 	void SetQuantity()
 	{
 		int count = 0;
@@ -56,7 +56,7 @@ public:
 		}
 		
 	}
-	//Сума
+	//Г‘ГіГ¬Г 
 	int summa() {
 		return first * second;
 	}
@@ -70,6 +70,7 @@ int main()
 	banknota.summa();
 	
 	cout <<"Summa: "<< banknota.summa() ;
+	getch();
 	return 0;
 }
 
