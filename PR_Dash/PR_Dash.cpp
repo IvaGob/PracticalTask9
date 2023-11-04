@@ -70,7 +70,8 @@ int main()
 	banknota.summa();
 	
 	cout <<"Summa: "<< banknota.summa() ;
-	getch();
+	getchar();
+	getchar();
 	return 0;
 }
 
